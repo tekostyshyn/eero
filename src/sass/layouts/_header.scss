@@ -1,0 +1,38 @@
+.header__container {
+  position: relative;
+  padding-left: 36px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 1px 0px 0px #0000000d;
+  background-color: $mainWhiteColor;
+}
+
+.header__logo {
+  margin-right: 195px;
+  color: $mainBlackColor;
+}
+
+.header__button {
+  position: absolute;
+  right: 0;
+  width: 166px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $mainWhiteColor;
+  background-color: $mainButtonColor;
+  text-transform: uppercase;
+
+  font-family: $fontRoboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.78;
+
+  &:hover, &:focus {
+    background-color: $secondGrayColor;
+    transition: background-color $baseTransition;
+  }
+}

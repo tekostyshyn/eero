@@ -1,0 +1,17 @@
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 33px;
+  background-color: $backgroundBlueColor;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.banner__text {
+  font-family: $fontRoboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.64;
+  color: $mainWhiteColor;
+  text-align: center;
+}

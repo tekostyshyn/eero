@@ -1,0 +1,17 @@
+.site-nav {
+  display: flex;
+  gap: 37px;
+}
+
+.site-nav__link {
+  font-family: $fontRoboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.38;
+  color: $mainGrayColor;
+
+  &:hover, &:focus {
+    color: $mainBlackColor;
+    transition: color $baseTransition;
+  }
+}
