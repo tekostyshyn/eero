@@ -5,9 +5,7 @@
 }
 
 .amazon__subtitle {
-  font-family: $fontRoboto;
   font-size: 18px;
-  font-weight: 400;
   line-height: 1.17;
   color: $mainGrayColor;
   margin-bottom: 21px;
@@ -23,9 +21,6 @@
 .amazon__link {
   display: block;
   position: relative;
-  font-family: $fontRoboto;
-  font-size: 14px;
-  font-weight: 400;
   line-height: 1.14;
   color: $mainGrayColor;
   text-transform: uppercase;

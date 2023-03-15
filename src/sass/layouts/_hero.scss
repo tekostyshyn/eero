@@ -27,18 +27,14 @@
 .hero__title {
   margin-bottom: 24px;
   color: $mainWhiteColor;
-  font-family: $fontRoboto;
   font-size: 72px;
-  font-weight: 400;
   line-height: 1.12;
 }
 
 .hero__subtitle {
   margin-bottom: 16px;
   color: $mainWhiteColor;
-  font-family: $fontRoboto;
   font-size: 21px;
-  font-weight: 400;
   line-height: 1.38;
 }
 
@@ -53,7 +49,6 @@
   align-items: center;
   justify-content: center;
 
-  font-family: $fontRoboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;

@@ -1,0 +1,93 @@
+.footer__container {
+  background-color: $backgroundBlueColor;
+  min-height: 639px;
+  padding-left: 190px;
+  padding-top: 90px;
+}
+
+.footer__logo {
+  display: block;
+  color: $mainWhiteColor;
+  margin-bottom: 58px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-nav__item {
+  font-size: 17px;
+  line-height: 1.47;
+  color: $mainWhiteColor;
+}
+
+.footer__wrapper {
+  display: flex;
+  gap: 92px;
+}
+
+.footer__wrapper--withmargin {
+  margin-bottom: 65px;
+}
+
+.footer__wrapper--biggergap {
+    gap: 277px;
+}
+
+.footer-signup__title {
+  margin-bottom: 1px;
+  font-size: 36px;
+  line-height: 1.33;
+  color: $mainWhiteColor;
+}
+
+.footer-signup__subtitle {
+  margin-bottom: 69px;
+  font-size: 18px;
+  line-height: 1.38;
+  color: $mainWhiteColor;
+}
+
+.footer-signup__input {
+  width: 292px;
+  height: 53px;
+  border-bottom: 1px solid $mainWhiteColor;
+  background-color: transparent;
+
+  margin-right: 28px;
+
+  &::placeholder {
+    color: $placeholderColor;
+    text-transform: uppercase;
+    line-height: 1.21;
+  }
+}
+
+.footer-signup__button {
+  width: 191px;
+  height: 53px;
+  background-color: transparent;
+  border: 1px solid $mainWhiteColor;
+  color: $mainWhiteColor;
+  text-transform: uppercase;
+  line-height: 1.21;
+
+  &:hover,
+  &:focus {
+    background-color: $mainButtonColor;
+    transition: background-color $baseTransition;
+  }
+}
+
+.copyright {
+    display: inline-block;
+  color: $mainWhiteColor;
+  line-height: 1.64;
+  text-transform: uppercase;
+
+  &--smallfont {
+    font-size: 13px;
+  }
+}
