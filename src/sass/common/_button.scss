@@ -1,0 +1,19 @@
+.button {
+    font-family: $fontRoboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.78;
+    text-transform: uppercase;
+
+    color: $mainWhiteColor;
+    background-color: $mainButtonColor;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover, &:focus {
+        background-color: $secondGrayColor;
+        transition: background-color $baseTransition;
+      }
+}

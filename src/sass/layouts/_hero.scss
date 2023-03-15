@@ -1,0 +1,77 @@
+.hero__container {
+  position: relative;
+  height: 687px;
+  background-color: $backgroundColorHero;
+  padding: 0;
+}
+
+.hero__image {
+  height: 591px;
+  padding-top: 120px;
+  background-image: url(../images/hero@1x.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url(../images/hero@2x.jpeg);
+    }
+  }
+}
+
+.hero__title {
+  margin-bottom: 24px;
+  color: $mainWhiteColor;
+  font-family: $fontRoboto;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.12;
+}
+
+.hero__subtitle {
+  margin-bottom: 16px;
+  color: $mainWhiteColor;
+  font-family: $fontRoboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.hero__button {
+  display: flex;
+  width: 226px;
+  height: 51px;
+  background-color: transparent;
+  border: 1px solid $mainWhiteColor;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+
+  font-family: $fontRoboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: $mainWhiteColor;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background-color: $mainButtonColor;
+    transition: background-color $baseTransition;
+  }
+}
+
+.hero__decorimage {
+  position: absolute;
+  top: 407px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 576px;
+  height: 324px;
+}
